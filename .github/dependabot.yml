@@ -15,7 +15,10 @@ updates:
           - "minor"
 
   - package-ecosystem: "docker"
-    directory: "/"
+    directories:
+      - "/.devcontainer/"
+      - "/client/"
+      - "/management/"
     schedule:
       interval: "daily"
 
