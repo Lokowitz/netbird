@@ -84,7 +84,7 @@ require (
 	github.com/pion/turn/v3 v3.0.1
 	github.com/pkg/sftp v1.13.9
 	github.com/prometheus/client_golang v1.23.2
-	github.com/quic-go/quic-go v0.55.0
+	github.com/quic-go/quic-go v0.57.0
 	github.com/redis/go-redis/v9 v9.7.3
 	github.com/rs/xid v1.3.0
 	github.com/shirou/gopsutil/v3 v3.24.4
@@ -172,7 +172,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/distribution/reference v0.6.0 // indirect
-	github.com/docker/docker v26.1.5+incompatible // indirect
+	github.com/docker/docker v28.0.0+incompatible // indirect
 	github.com/docker/go-connections v0.5.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
