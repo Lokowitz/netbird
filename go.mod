@@ -5,7 +5,7 @@ go 1.25
 toolchain go1.25.5
 
 require (
-	cunicu.li/go-rosenpass v0.4.0
+	cunicu.li/go-rosenpass v0.5.42
 	github.com/cenkalti/backoff/v4 v4.3.0
 	github.com/cloudflare/circl v1.3.3 // indirect
 	github.com/golang/protobuf v1.5.4
@@ -21,8 +21,8 @@ require (
 	github.com/vishvananda/netlink v1.3.1
 	golang.org/x/crypto v0.46.0
 	golang.org/x/sys v0.39.0
-	golang.zx2c4.com/wireguard v0.0.0-20230704135630-469159ecf7d1
-	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6
+	golang.zx2c4.com/wireguard v0.0.0-20231211153847-12269c276173
+	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20241231184526-a9ab2273dd10
 	golang.zx2c4.com/wireguard/windows v0.5.3
 	google.golang.org/grpc v1.77.0
 	google.golang.org/protobuf v1.36.10
@@ -39,7 +39,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.79.2
 	github.com/c-robinson/iplib v1.0.3
 	github.com/caddyserver/certmagic v0.21.3
-	github.com/cilium/ebpf v0.15.0
+	github.com/cilium/ebpf v0.19.0
 	github.com/coder/websocket v1.8.13
 	github.com/coreos/go-iptables v0.7.0
 	github.com/creack/pty v1.1.24
@@ -56,7 +56,7 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/google/gopacket v1.1.19
 	github.com/google/nftables v0.3.0
-	github.com/gopacket/gopacket v1.1.1
+	github.com/gopacket/gopacket v1.4.0
 	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.0.2-0.20240212192251-757544f21357
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-secure-stdlib/base62 v0.1.2
