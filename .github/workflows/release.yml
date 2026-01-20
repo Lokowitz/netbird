@@ -132,7 +132,7 @@ jobs:
         with:
           fetch-depth: 0 # It is required for GoReleaser to work properly
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version-file: "go.mod"
           cache: false
@@ -228,7 +228,7 @@ jobs:
           fetch-depth: 0 # It is required for GoReleaser to work properly
 
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version-file: "go.mod"
           cache: false
@@ -292,7 +292,7 @@ jobs:
         with:
           fetch-depth: 0 # It is required for GoReleaser to work properly
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version-file: "go.mod"
           cache: false
