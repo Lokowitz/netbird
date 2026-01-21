@@ -16,9 +16,9 @@ updates:
 
   - package-ecosystem: "docker"
     directories:
-      - "/.devcontainer/"
-      - "/client/"
-      - "/management/"
+      - "/.devcontainer"
+      - "/client"
+      - "/management"
     schedule:
       interval: "daily"
 
